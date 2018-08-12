@@ -38,6 +38,14 @@ Turndown also accepts DOM nodes as input (either element nodes, document nodes, 
 var markdown = turndownService.turndown(document.getElementById('content'))
 ```
 
+### Command Line Interface (CLI)
+
+```
+ turndown (<input> | --input <input>) [options]
+```
+
+Where `<input>` is a string of HTML or a path to an HTML file. `options` are hyphen-separated flags of the options listed below (e.g. `headingStyle` becomes `--heading-style`).The CLI also accepts input via stdin.
+
 ## Options
 
 Options can be passed in to the constructor on instantiation.
