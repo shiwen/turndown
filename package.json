@@ -24,7 +24,8 @@
   },
   "files": [
     "lib",
-    "dist"
+    "dist",
+    "bin"
   ],
   "keywords": [
     "converter",
